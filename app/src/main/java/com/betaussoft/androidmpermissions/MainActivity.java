@@ -67,11 +67,11 @@ public class MainActivity extends AppCompatActivity {
              // Already have permissions.
              //  2.	Request Permissions.
 
-             if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
+          
 
                  ActivityCompat.requestPermissions(MainActivity.this, new String[]{permission}, requestCode);
 
-             }else{
+         
 
              }
          }
